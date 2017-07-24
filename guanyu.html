@@ -1,0 +1,201 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Genious</title>
+<link rel="stylesheet" type="text/css" href="guanyu.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div id="headBanner">  <!--导航➕banner-->
+
+
+
+    <div id="nav"><!--导航-->
+        <!--logo-->
+        <img src="logo1.png" alt="" class="floatL"/>
+
+        <!--导航文字-->
+        <ul class="daohang floatL">&nbsp;
+            <li class="floatL"><a href="souye.html">首页</a></li>
+            <li class="floatL"><a href="enre.html">社会招聘</a></li>
+            <li class="floatL"><a href="myparier.html">我的合作</a></li>
+            <li class="floatL"><a href="yewu.html">我的业务</a></li>
+            <li class="floatL"><a href="xiaoyuanzhaoping.html">校园招聘</a></li>
+            <li class="floatL"><a href="guanyu.html">关于印象</a></li>
+            <li class="floatL">
+                <a href="#">更多</a>
+                <ul class=" submenu">
+                    <li><a href="#">关于印象派</a></li>
+                    <li><a href="#">留言联系</a></li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <div id="sousuo" class="floatR"><!--搜索登录注册-->
+                <span class="floatL">
+
+                </span>
+            <div class="floatL loginbox" id="denglu"><a href="#">登录</a></div>
+            <div class="floatL resitbox" id="zhuce"><a href="#">注册</a></div>
+
+        </div>
+
+    </div>
+
+
+
+<div class="header">&nbsp;
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 col-sm-12 col-xs-12">
+            	<div class="logo pull-left col-md-6 col-sm-6 col-xs-12">
+                	<h1>Impressionism</h1>
+                </div>
+                <div class="social col-md-6 col-sm-6 col-xs-12">
+            		<ul class="pull-right">
+                        <li><a href="#"><i class="fa fa-renren"></i></a></li>
+                        <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+                        <li><a href="#"><i class="fa fa-wechat"></i></a></li>
+                        <li><a href="#"><i class="fa fa-qq"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            	<div class="main-title text-center">
+                	<h2>印 象 派</h2>
+                    <p>竭 力 为 同 学 们 提 供 最 优 质 、最 快 捷 的 服 务 ！ </p>
+                    <div id="countdown" data-wow-delay=".3s" data-date="Dec 26, 2015 06:00:00"></div>
+                    <a href="#footer" class="subscribe-tag page-scroll">点击关注我们！</a>
+                </div>
+                
+                	
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about text-center">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<div class="title">
+                	<h3>关 于 我 们</h3>
+                </div>
+                <div class="desc">
+                	<p>我 们 致 力 于 为 广 大 师 生 服 务 ，为 在 校 师 生 提 供 打 字 、复 印 、照 相 、海 报 制 作 等 基 本 服 务 。创 业 初 期 我 们 无 畏 前 行 至 今 我 们 已 在 学 院 店 面 开 设 有 5 个 复 印 点 ， 寝 室 2 3 个 复 印 点 ，获学 院 领 导 、 老 师 、同 学们 的 一 致 好 评 ！ </p>
+                </div>
+            </div>
+            <div class="featurebox col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            	<div class="feature text-left">
+                	<h4>服务流程</h4>
+                    <p>客户下单→制作→送达→付款</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            	<div class="feature text-left">
+                	<h4>我们的理念</h4>
+                    <p> 有事干才是充实快乐的一天！</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            	<div class="feature text-left">
+                	<h4>管理模式</h4>
+                    <p>金字塔型管理模式</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+            	<div class="feature text-left">
+                	<h4>我们的宗旨</h4>
+                    <p>顾客就是上帝！一心一意为上帝服务！</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+if ($('#countdown').length) { 
+			$('#countdown').countdown({
+				render: function(data) {
+					if (data.years >= 1) {
+						var $days =	(data.years*365)+data.days;
+					} else {
+						var $days = data.days;
+					}
+				  $(this.el).html(
+					  '<div class="day">' + this.leadingZeros($days) + ' <span>Days</span></div>'+
+					  '<div class="hour">' + this.leadingZeros(data.hours, 2) + ' <span>Hours</span></div>'+
+					  '<div class="min">' + this.leadingZeros(data.min, 2) + ' <span>Minutes</span></div>'+
+					  '<div class="sec">' + this.leadingZeros(data.sec, 2) + ' <span>Seconds</span></div>'
+				  );
+				}
+			});
+		}
+
+</script>
+    </div>
+
+<div id="lianxi">&nbsp;
+    <div class="floatL jieshaohezi">
+        以用户为中心的设计理念，专注于用户体验设计，拥有国内外最新的设计潮流趋势、独特而美的创意视觉、新颖而灵敏的思维意识、极致而生动的交互体验，更有严谨而通俗的技术教程！
+        唯然是觉唯网的图片分享社区，以记录美丽、分享美好的创意理念，分享高品质创意、艺术、设计、时尚、插画、摄影、唯美类精美图片。
+    </div>
+
+    <div class= " floatL ul_1" >
+        <li><a href="#">关于</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">留言联系</a></li>
+        <li><a href="#">友情链接</a></li>
+        <li><a href="#">免责声明</a></li>
+        <li><a href="#">网站地图</a></li>
+
+    </div>
+
+    <div class= " floatL ul_2" >
+        <li><a href="#">栏目</a></li>
+        <li><a href="#">用户体验</a></li>
+        <li><a href="#">素材下载</a></li>
+        <li><a href="#">设计欣赏</a></li>
+        <li><a href="#">主题商店</a></li>
+        <li><a href="#">印象灵感</a></li>
+
+    </div>
+
+
+    <div class= " floatL ul_3" >
+        <li><a href="#">友链</a></li>
+        <li><a href="#">前端观察</a></li>
+        <li><a href="#">设计达人</a></li>
+        <li><a href="#">创业欣赏</a></li>
+        <li><a href="#">轻松一下</a></li>
+        <li><a href="#">印象美称</a></li>
+
+    </div>
+
+    <div class= " floatL ul_4" >
+        <li>关注</li>
+        <li>Email:</li>
+        <li>javin@jiawin.com</li>
+
+        <div class="shurukuang" >
+            <input type="text" name="feg" id="" placeholder="请输入您的邮箱"/>
+        </div>
+
+        <div class="dingyue">
+            订阅
+        </div>
+
+
+    </div>
+
+</body>
+</html>

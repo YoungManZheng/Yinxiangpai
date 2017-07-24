@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    /*opacity: 0.5;*/
+}
+/*logo*/
+.nav>img{
+    width: 100px;
+    height: 48px;
+    margin-left: 100px;
+    float: left;
+}
+.FloatL{
+    float: left;
+}
+.daohang{
+    margin-top: 0px;
+    margin-left: 130px;
+}
+.daohang>li{
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+
+    height: 50px;
+}
+.daohang a{
+    text-decoration: none;
+    color: white;
+}
+.daohang a:hover{
+    color: gray;
+}
+.login-reg a:hover{
+    color: rgba(255, 202, 67, 0.83);
+}
+
+.submenu li{
+    list-style: none;
+    width: 100px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+.submenu{
+    background-color: black;
+    /*opacity: 0.5;*/
+}
+.more:hover{
+    overflow: visible;
+}
+.submenu>li:hover{
+    background-color: #2d2f14;
+    opacity: 0.6;
+    color: aqua;
+}
+.login-reg{
+    width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    float: left;
+}
+.login-reg .login{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 3px;
+    margin-top: 5px;
+    background-color: #8f8b8c;
+    text-align: center;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    float: left;
+}
+.login-reg .reg{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    background-color: #8f8b8c;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    float: left;
+}
+.search{
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+}

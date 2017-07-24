@@ -1,0 +1,88 @@
+#lianxi {
+    width: 100%;
+    height: 300px;
+    /*background: #010101;*/
+}
+#lianxi > .jieshaohezi {
+    width: 300px;
+    margin-top: 40px;
+    height: 180px;
+    margin-left: 30px;
+    color: white;
+    /*outline: 3px solid red;*/
+}
+
+.ul_1 {
+    color: white;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.ul_1 li {
+    list-style: none;
+
+}
+
+.ul_2 {
+    color: white;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.ul_2 li {
+    list-style: none;
+
+}
+
+.ul_3 {
+    color: white;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.ul_3 li {
+    list-style: none;
+
+}
+
+.ul_4 {
+    color: white;
+    width: 300px;
+    height: 400px;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.ul_4 li {
+    list-style: none;
+
+}
+
+/* ‰»ÎøÚ*/
+.shurukuang {
+    margin-top: 10px;
+    margin-right: 30px;
+
+}
+
+.dingyue {
+    margin-left: 200px;
+    margin-top: -35px;
+    width: 50px;
+    color: rgb(202, 200, 200);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background: #00A398;
+}
+
+.dingyue:hover {
+    color: #fffdfd;
+}

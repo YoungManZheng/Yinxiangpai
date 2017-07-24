@@ -1,0 +1,392 @@
+body{
+    margin: 0px;
+     height: 1850px/*整体边距0*/
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.floatL{
+    float: left;
+}
+
+.floatR{
+    float: right;
+}
+
+
+#headBanner{
+    width: 1944px;
+    height: 400px;
+
+}
+
+#nav{
+    width: 100%;
+    height: 92px;
+    z-index: 999;
+    position: fixed;
+    background-color: black; /*黑色的导航栏*/
+}
+
+#nav>ul>li>a{
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 20px;
+
+    text-decoration: none;  /*改变导航文字标签的下划线*/
+}
+
+
+#nav>ul{
+    margin-top: 25px; /*整体导航文字距离上边距*/
+}
+
+
+
+#nav img{
+   margin-top: -5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 130px;      /*logo大小*/
+}
+
+#nav li{
+
+    text-align: center;
+
+    list-style: none;  /*取消原点*/
+}
+
+#sousuo {
+    color: black;
+    margin-right: 50px;
+    margin-top: 40px;
+
+    font-size: 20px;    /*<!--搜索登录注册整体字体-->*/
+
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+    margin-left: 15px;     /*登陆注册a标签去下划线*/
+}
+
+.loginbox{
+    border-radius: 10px 0 0 10px;
+    margin-right: 5px;
+
+    background-color: rgba(255,255,255,0.3);   /*登陆盒子透明*/
+
+}
+
+.resitbox{
+    border-radius: 0 10px 10px 0;
+    margin-right: 5px;
+
+    background-color: rgba(255,255,255,0.3);   /*注册盒子透明*/
+}
+
+
+
+#nav>ul>li{
+
+    width: 150px;
+    font-size: 18px;
+    height: 50px;
+    overflow: hidden;/*溢出隐藏*/
+    text-align: left;
+    line-height: 50px;/*行高*/
+}
+
+.submenu li a{
+
+    list-style: none;
+    width: 100px;
+    line-height: 40px;
+    height: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.submenu li{
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 30px;
+    list-style: none;/*去掉小圆点*/     /*为更多的子菜单添加背景*/
+}
+
+
+
+.daohang-head{
+    width: 1955px;
+    height: 120px;
+    margin-top: 50px;
+    background-color:#F1F1F1;
+}
+
+
+.daohang-head-wenzi>ul>li{
+
+    margin-left: 135px;
+    margin-top: 20px;
+    list-style: none;       /*导航文字下面的文字*/
+}
+
+
+
+.search{
+    color:black;
+    width: 20px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.daohang>li{
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+
+    height: 50px;
+}
+
+.daohang a:hover{
+    color: #19f0c3;
+}
+
+.daohang{
+    margin-top: -10px;
+    margin-left: 130px;
+}
+
+.daohang-head-wenzi>ul>li>a{
+    text-decoration: none;
+    color: #0a1141;              /*导航文字标签的文字样式*/
+
+}
+
+.daohang-head-wenzi{
+    margin-top: -30px;    /*导航块整体上移px*/
+}
+
+.daohang-head-wenzi a:hover{
+    color: #ffae0f;
+    border-bottom: 1px solid #ffae0f;
+}
+
+
+.loginbox >a:hover{
+    background-color: #2d2f14;
+    opacity: 0.6;
+    color: aqua; }
+
+.resitbox >a:hover{
+    background-color: #2d2f14;
+    opacity: 0.6;
+    color: aqua; }
+
+.daohang a:hover{
+    color: #9fff31;
+}
+#headBanner{
+    width: 1944px;
+    height: 300px;
+    background-image: url(../style/zhaopinbeijing.png);
+    background-position: center 599px;  /* 背景图*/
+
+}
+
+/**********************/
+.daohang>li{
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+
+    height: 50px;
+}
+
+.daohang a:hover{
+    color: #19f0c3;
+}
+
+
+
+.daohang{
+    margin-top: -50px;
+    margin-left: 130px;
+}
+
+
+.daohang-head-wenzi>ul>li>a{
+    text-decoration: none;
+    color: #0a1141;              /*导航文字标签的文字样式*/
+
+}
+
+.daohang-head-wenzi{
+    margin-top: -17px;    /*导航块整体上移12px*/
+}
+
+.daohang-head-wenzi a:hover{
+    color: #ffae0f;
+    border-bottom: 1px solid #ffae0f;
+}
+
+.daohang-head{
+    width: 1955px;
+    height: 60px;
+    margin-top: -28px;
+    background-color:#F1F1F1;
+}
+.yin{
+    width: 850px;
+    height: 50px;
+    font-size: 120px;
+    margin-left: 550px;
+    margin-top: -10px;
+    color: #fffafe;
+}
+.zhongjian{
+    height: 1500px;
+}
+
+/*########################zhongjian##############################*/
+
+.zhongjian{
+    width:1900px;
+    height: 800px;
+    /*background-color: rgba(135, 255, 31, 0.54);*/
+    background-image: url(../images/banner-1.png);
+ background-position:55%;
+    /*outline: solid 3px red;*/
+}
+.zhongjian img{
+    margin-left: 10px;
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.52);
+}
+.wen1{
+    width: 1350px;
+    height: 250px;
+    font-size:25px;
+    background-color: rgba(250, 235, 215, 0.95);
+    margin-top: -280px;
+    margin-left: 550px;
+    line-height: 30px;
+
+}
+
+.diertu{
+    margin-top: 60px;
+    width: 450px;
+    line-height: 40px;
+    margin-left: 15px;
+    background-color: rgba(255, 201, 0, 0.84);
+    font-size: 20px;
+}
+
+.zhaopingtu{
+
+    margin-left: 1325px;
+    margin-top: -490px;
+}
+
+
+/*联系我们*/
+/*————————————————————————联系我们——————————————————————*/
+
+#lianxi{
+    width: 1930px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.52);
+}
+#lianxi>.jieshaohezi{
+    width:300px;
+    margin-top: 40px;
+    height: 180px;
+    margin-left: 30px;
+    color: #fdfdff;
+    /*outline: 3px solid red;*/
+}
+
+
+.ul_1{
+    color: #6aff34;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_1 li{
+    list-style: none;
+
+}
+
+.ul_2{
+    color: white;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_2 li{
+    list-style: none;
+
+}
+
+.ul_3{
+    color: #ffc748;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_3 li{
+    list-style: none;
+
+}
+
+.ul_4{
+    color: white;
+    width: 300px;
+    height: 400px;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_4 li{
+    list-style: none;
+
+}
+
+/*输入框*/
+.shurukuang{
+    margin-top:10px;
+    margin-right: 30px;
+
+}
+.dingyue{
+    margin-left: 200px;
+    margin-top: -35px;
+    width: 50px;
+    color: rgb(202, 200, 200);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background: #00A398;
+}
+
+.dingyue:hover{
+    color: #fffdfd;
+}

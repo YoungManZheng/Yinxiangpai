@@ -1,0 +1,542 @@
+.floatL{
+    float: left;
+}
+
+.floatR{
+    float: right;
+}
+
+
+
+
+
+
+#nav{
+    width: 100%;
+    height: 92px;
+    position: fixed;
+    z-index: 1500;
+    margin-top: -15px;
+    background-color: black; /*黑色的导航栏*/
+}
+
+#nav>ul>li>a{
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 20px;
+
+    text-decoration: none;  /*改变导航文字标签的下划线*/
+}
+
+
+#nav>ul{
+    margin-top: 25px; /*整体导航文字距离上边距*/
+}
+
+
+
+
+
+#nav img{
+    margin-top: -2px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 130px;      /*logo大小*/
+}
+
+#nav li{
+
+    text-align: center;
+
+    list-style: none;  /*取消原点*/
+}
+
+#sousuo {
+    color: white;
+    margin-right: 50px;
+    margin-top: 40px;
+
+    font-size: 20px;    /*<!--搜索登录注册整体字体-->*/
+
+
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+    margin-left: 15px;     /*登陆注册a标签去下划线*/
+}
+
+.loginbox{
+    border-radius: 10px 0 0 10px;
+    margin-right: 5px;
+
+    background-color: rgba(255,255,255,0.3);   /*登陆盒子透明*/
+
+}
+
+.resitbox{
+    border-radius: 0 10px 10px 0;
+    margin-right: 5px;
+
+    background-color: rgba(255,255,255,0.3);   /*注册盒子透明*/
+}
+
+
+.yin img{
+    margin-top: 110px;
+}
+
+#nav>ul>li{
+
+    width: 150px;
+    font-size: 18px;
+    height: 50px;
+    overflow: hidden;/*溢出隐藏*/
+    text-align: left;
+    line-height: 50px;/*行高*/
+}
+
+.submenu li a{
+
+    list-style: none;
+    width: 100px;
+    line-height: 40px;
+    height: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+.submenu li{
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 30px;
+    list-style: none;/*去掉小圆点*/     /*为更多的子菜单添加背景*/
+}
+
+
+
+.daohang-head{
+    width: 1955px;
+    height: 60px;
+    background-color:#F1F1F1;
+}
+
+
+.daohang-head-wenzi>ul>li{
+
+    margin-left: 135px;
+    margin-top: 20px;
+    list-style: none;       /*导航文字下面的文字*/
+}
+
+
+#nav>ul>li:hover{
+    overflow: visible; /*更多的动画效果*/
+}
+
+
+.search{
+    color:white;
+    width: 20px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.daohang>li{
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+
+    height: 50px;
+}
+
+.daohang a:hover{
+    color: #19f0c3;
+}
+
+
+
+.daohang{
+    margin-top: 0px;
+    margin-left: 130px;
+}
+
+
+.daohang-head-wenzi>ul>li>a{
+    text-decoration: none;
+    color: #0a1141;              /*导航文字标签的文字样式*/
+
+}
+
+.daohang-head-wenzi{
+    margin-top: -17px;    /*导航块整体上移12px*/
+}
+
+.daohang-head-wenzi a:hover{
+    color: #ffae0f;
+    border-bottom: 1px solid #ffae0f;
+}
+
+
+.loginbox >a:hover{
+    background-color: #2d2f14;
+    opacity: 0.6;
+    color: aqua; }
+
+.resitbox >a:hover{
+    background-color: #2d2f14;
+    opacity: 0.6;
+    color: aqua; }
+
+.daohang a:hover{
+    color: #9fff31;
+}
+
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Light.eot');
+    src: local('Fira Sans Light'),
+         url('../fonts/FiraSans-Light.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Light.woff') format('woff'),
+         url('../fonts/FiraSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+         url('../fonts/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Regular.woff') format('woff'),
+         url('../fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/FiraSans-Bold.eot');
+    src: local('Fira Sans Bold'),
+         url('../fonts/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('../fonts/FiraSans-Bold.woff') format('woff'),
+         url('../fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+html {
+    overflow: hidden;
+}
+body {
+    background: #455a64;
+    overflow: auto;
+    height: 100vh;
+}
+/***** Typography *****/
+body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fira Sans';}
+b, strong, dt { font-weight: 400;}
+h1, h2, h3, h4, h5, h6 { line-height: 2em;}
+/***** Material Shadow *****/
+.shadow-top-down {
+    box-shadow: 0px 8px 8px -4px rgba(0,0,0,0.75);
+    transition: all .5s;
+}
+.shadow-top-down:hover { box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);}
+/***** Material Form Elements *****/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+form .form-group { margin-top: 30px;}
+form input.form-control,
+form button.form-control,
+form textarea.form-control ,
+form select.form-control {
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #233842;
+    border-radius: 0px;
+    height: 45px;
+}
+form input.form-control:focus,
+form button.form-control:focus,
+form textarea.form-control:focus {
+    border-bottom-color: #c0c0c0;
+    box-shadow: none;
+}
+form button.form-control {
+    background-color: #275267;
+    transition: .5s;
+}
+form button.form-control[type=reset] { background-color: transparent;}
+form button.form-control:hover,
+form button.form-control:focus {
+    border-bottom-color: #275267;
+    background-color: #1c2d35;
+}
+form textarea.form-control { min-height: 120px;}
+form .input-group-addon { 
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #233842;
+    vertical-align: top;
+    border-radius: 0;
+    color: white;
+}
+form .input-group-addon i { padding-top: 10px;color: #000;}
+form .checkbox input[type=checkbox] { margin-top: 12px;}
+/***** Images Padding Config *****/
+.img-rounded { border-radius: 4px;}
+.img-n-pargaraph .pull-right {
+    padding: 0;
+    margin: 10px 0 15px 15px;
+}
+.img-n-pargaraph .pull-left {
+    padding: 0;
+    margin: 10px 15px 15px 0;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/***** Template Header *****/
+header.template_header h1 {
+    font: normal normal 200 50px/150px 'Fira Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+header.template_header h1 span {
+    position: relative; 
+    top: -15px;
+}
+/***** Main Menu *****/
+/***** Home *****/
+#templatemo_home {
+    background: #154558 url(../images/jumbo_background.jpg) fixed;
+    /*background:  url(../images/.jpg) fixed;*/
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 130px;
+    color: #fff;
+}
+#templatemo_home .templatemo_home_inner_wapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#templatemo_home img {
+    margin-top: 20vh;
+    height: 80px;
+    width: 110px;
+    margin-left: 200px;
+
+}
+#templatemo_home h2 {
+    font: normal normal 100 36px/40px 'Fira Sans', sans-serif;
+}
+#templatemo_home p {
+    margin: 50px 0 50px 0;
+    font: normal normal 100 18px/40px 'Fira Sans', sans-serif;
+}
+#templatemo_home p a {
+    background-color: rgba(255,255,255,.6);
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+#templatemo_home p a:hover {
+    background-color: rgba(255,255,255,.75);
+    border-bottom: 0px dotted #000;
+}
+#templatemo_home a.btn_wapper {
+    margin-bottom: 150px;
+}
+#templatemo_home a.btn {
+    font: normal normal 300 18px/60px 'Fira Sans', sans-serif;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    background: #fff;
+    height: 63px;
+    color: #000;
+    padding: 0;
+}
+/***** Features *****/
+#templatemo_features {
+    background: #455a64 url(../images/pattern_bg.png) fixed;
+    padding-bottom: 130px;
+}
+#templatemo_features p {
+    padding-bottom: 30px;
+    text-align: center;
+}
+#templatemo_features .feature-box {
+    transition: all .5s;
+    background: transparent;
+    padding: 40px 0 40px 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#templatemo_features .feature-box:hover {
+    padding: 0;
+    color: #fff;
+}
+#templatemo_features .feature-box .feature-box-inner {
+    box-shadow: inset 0px 0px 0 10px #cecece;
+    border-bottom: 10px solid #cecece;
+    border-top: 10px solid #cecece;
+    transition: all .5s;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+}
+#templatemo_features .feature-box:hover .feature-box-inner {
+    box-shadow: inset 0px 0px 0px 0px #cecece;
+    border-bottom: 10px solid #3d799f;
+    border-top: 10px solid #3d799f;
+    padding: 60px 20px 60px 20px;
+    background: #3399cc;
+}
+#templatemo_features .feature-box p {
+    max-width: 250px;
+    min-height: 260px;
+    line-height: 32px;
+    padding-top: 30px;
+    font-size: 18px;
+    margin: auto;
+}
+#templatemo_features .feature-box .feature-box-icon {
+    border-radius: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 56px;
+    color:#233842;
+}
+/***** Download *****/
+#templatemo_download { 
+    background: url(../images/download_background.jpg) fixed;
+}
+#templatemo_download h2 {
+    font: normal normal 100 100px/150px 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+#templatemo_download p {
+    text-align: center;
+    color: #fff;
+}
+#templatemo_download a {
+    margin: 50px auto 100px auto;
+    display: block;
+    width: 260px;
+}
+#templatemo_download .templatemo_download_text_wapper {
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+
+.templatemo_home_inner_wapper .text-center{
+    font-size: 75px;
+}
+
+/*————————————————————————联系我们——————————————————————*/
+
+#lianxi{
+    width: 1930px;
+    height: 450px;
+    background: #010101;
+}
+#lianxi>.jieshaohezi{
+    width:300px;
+    margin-top: 40px;
+    height: 180px;
+    margin-left: 30px;
+    color: #fffafe;
+    /*outline: 3px solid red;*/
+}
+
+
+.ul_1{
+    color: #010101;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_1 li{
+    list-style: none;
+
+}
+
+.ul_2{
+    color: #fdfdff;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_2 li{
+    list-style: none;
+
+}
+
+.ul_3{
+    color: white;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_3 li{
+    list-style: none;
+
+}
+
+.ul_4{
+    color: white;
+    width: 300px;
+    height: 400px;
+    /*outline: 3px solid red;*/
+    line-height: 35px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.ul_4 li{
+    list-style: none;
+
+}
+
+/*输入框*/
+.shurukuang{
+    margin-top:10px;
+    margin-right: 30px;
+
+}
+.dingyue{
+    margin-left: 200px;
+    margin-top: -35px;
+    width: 50px;
+    color: rgb(202, 200, 200);
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    background: #00A398;
+}
+
+.dingyue:hover{
+    color: #fffdfd;
+}

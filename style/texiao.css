@@ -1,0 +1,34 @@
+#container {
+    width: 100%;
+    height: auto;
+    background: black;
+    background: linear-gradient(to bottom, #ededed 0%, #7ac7fe 100%);
+}
+
+.filter {
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fe9f9a;
+    animation: colorChange 20s ease-in-out infinite;
+    animation-fill-mode: both;
+    mix-blend-mode: overlay;
+}
+
+@keyframes colorChange {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .9;
+    }
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
